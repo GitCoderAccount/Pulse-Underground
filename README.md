@@ -1,16 +1,22 @@
 <p align="center">
-  <img src="image1.png" alt="Say It DeFi logo" width="120">
+  <img src="image1.png" alt="OnChain Social logo" width="120">
 </p>
 
-# Say It DeFi
+# OnChain Social
 
-**Uncensorable social media, built on multiple EVM chains (PulseChain + Ethereum + Base + BSC by default).** — [sayitdefi.com](https://sayitdefi.com) · [@SayItDeFi](https://x.com/SayItDeFi)
+**Uncensorable social media, built on multiple EVM chains (PulseChain + Ethereum + Base + BSC by default).** — [sayitdefi.com](https://sayitdefi.com) · [@sayitdefi](https://x.com/SayItDeFi)
 
-Say It DeFi is a decentralized social platform where every post, reply, like, follow, poll, tip, profile, and community note lives on-chain. There is no central server storing your content, no database that can be wiped, no company that can delete your account or silence your voice, and **no tracking of any kind**. If your wallet can sign a transaction, you can speak — and what you say is permanent, public, and owned by no one but the network itself.
+OnChain Social is a decentralized social platform where every post, reply, like, follow, poll, tip, profile, and community note lives on-chain. There is no central server storing your content, no database that can be wiped, no company that can delete your account or silence your voice, and **no tracking of any kind**. If your wallet can sign a transaction, you can speak — and what you say is permanent, public, and owned by no one but the network itself.
 
 This repository hosts the **front-end**: a small, self-contained, from-scratch web application that reads the social graph directly from the blockchain and lets you write to it with your own wallet. The front-end is just a window. The data is the chain.
 
 ---
+
+## Non-Affiliation Statement
+
+This project is independently maintained and is not an official project, product, or branded surface of the Digital Nation, its cabinet offices, or Operator-controlled identities.
+
+Reference to Digital Nation infrastructure, governance materials, or operational systems does not imply affiliation, endorsement, or operational responsibility unless explicitly stated in an authorized governance document.
 
 ## What it is
 
@@ -30,7 +36,7 @@ Because all of this is just blockchain data, anyone can build their own interfac
 
 ## Privacy — no cookies, no trackers, no server
 
-Say It DeFi is built for people who want to speak freely without being watched. We mean that literally:
+OnChain Social is built for people who want to speak freely without being watched. We mean that literally:
 
 - **No cookies. No analytics. No telemetry. No fingerprinting.** The in-app Analytics page is computed entirely inside your browser from your own local cache — nothing is ever sent anywhere.
 - **No server of ours.** The app is static files served from a host like GitHub Pages or IPFS. There is no backend to log you, and nothing in this project ever receives your IP or activity.
@@ -102,7 +108,7 @@ Your wallet ──signs──► PulseChain transaction ──contains──► 
                                   ▼
                        The blockchain (chain ID 369)
                                   │
-       Say It DeFi reads it back ─┘  via a configurable block-explorer API
+       OnChain Social reads it back ─┘  via a configurable block-explorer API
                                   │
                                   ▼
                           Rendered in your feed
@@ -218,10 +224,10 @@ Released under the [MIT License](LICENSE) — free to inspect, share, fork, and 
 
 ---
 
-*Say It DeFi — uncensorable social on PulseChain.*
+*OnChain Social — uncensorable social on PulseChain.*
 
 ## Multi-Network Support
-Say It DeFi aggregates content across multiple EVM chains. Your wallet identity
+OnChain Social aggregates content across multiple EVM chains. Your wallet identity
 is the same on every chain; posts, likes, and follows are chain-specific, but
 the Home feed shows them together.
 
